@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/kevinkorte/desertdogs2#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0"
   }
 }
