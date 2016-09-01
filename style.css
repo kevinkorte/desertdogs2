@@ -3573,5 +3573,15 @@ h2.title {
     margin-right: 10px; } }
 
 /*# sourceMappingURL=material-kit.css.map */
-.navbar.navbar-default {
-  background-color: #fff; }
+body {
+  background: #fff; }
+
+.nav-wrapper {
+  display: flex; }
+
+.menu-items {
+  color: red; }
+
+.logo img {
+  height: 75px;
+  width: auto; }
