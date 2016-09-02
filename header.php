@@ -12,7 +12,10 @@
       </div>
       <div class="menu-items">
         <div class="menu-info clearfix">
-          <div class="menu-phone pull-right">509-396-1361</div>
+          <div class="menu-item-contact-info pull-right">
+            <div class="menu-phone">509-396-1361</div>
+            <div class="menu-email">desertdogs@live.com</div>
+          </div>
         </div>
         <div class="menu-options">
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

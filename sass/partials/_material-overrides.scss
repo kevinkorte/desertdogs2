@@ -5,3 +5,8 @@
 body {
   background: #fff;
 }
+
+//disgusting selector to override bootstrap & material
+.navbar .dropdown-menu li > a:hover, .navbar .dropdown-menu li > a:focus, .navbar.navbar-default .dropdown-menu li > a:hover, .navbar.navbar-default .dropdown-menu li > a:focus {
+  background-color: red;
+}

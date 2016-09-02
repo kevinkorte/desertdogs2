@@ -6,14 +6,19 @@
       Professional Dog Training
       <a href="#" class="btn btn-default">Let's Go</a>
     </div>
-    <div class="col-md-6">
-      <?php $args = array(
+    <?php $args = array(
         'post_type' => 'post',
         'post_per_page' => 1
       ); ?>
       <?php $the_query = new WP_Query( $args ); ?>
       <?php if ( $the_query->have_posts() ) : ?>
       <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+    <?php if ( has_post_thumbnail() ) {
+      ?> <div class="col-md-6" style="background-image: url('<?php the_post_thumbnail_url(); ?>')";> <?php
+    } else {
+      ?> <div class="col-md-6"> <?php
+    } ?>
+      
 		<h2><?php the_title(); ?></h2>
 	<?php endwhile; ?>
 	<!-- end of the loop -->

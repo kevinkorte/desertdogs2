@@ -3576,6 +3576,9 @@ h2.title {
 body {
   background: #fff; }
 
+.navbar .dropdown-menu li > a:hover, .navbar .dropdown-menu li > a:focus, .navbar.navbar-default .dropdown-menu li > a:hover, .navbar.navbar-default .dropdown-menu li > a:focus {
+  background-color: red; }
+
 .navbar.navbar-default {
   background: #fff;
   padding: 10px 30px; }
@@ -3586,6 +3589,9 @@ body {
 .menu-items {
   flex-grow: 1;
   color: red; }
+
+.menu-phone, .menu-email {
+  display: inline-block; }
 
 .logo img {
   height: 75px;
