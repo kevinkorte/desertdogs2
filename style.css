@@ -3576,10 +3576,15 @@ h2.title {
 body {
   background: #fff; }
 
+.navbar.navbar-default {
+  background: #fff;
+  padding: 10px 30px; }
+
 .nav-wrapper {
   display: flex; }
 
 .menu-items {
+  flex-grow: 1;
   color: red; }
 
 .logo img {

@@ -5,14 +5,15 @@
     <?php wp_head(); ?>
   </head>
   <body>
-    <div class="container">
   <nav class="navbar navbar-default">
     <div class="nav-wrapper">
       <div class="logo">
         <img src="<?php echo get_template_directory_uri(); ?>/DD_unleashed.png" />
       </div>
       <div class="menu-items">
-        <div class="menu-info">509-396-1361</div>
+        <div class="menu-info clearfix">
+          <div class="menu-phone pull-right">509-396-1361</div>
+        </div>
         <div class="menu-options">
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -35,4 +36,3 @@
       </div>
     </div>
   </nav>
-  </div>
